@@ -57,6 +57,8 @@
 
 - **Remover arquivo do stage: `git restore --staged nomearquivo` .**
 
+- **Remover arquivos do índice do Git: `git rm --cached nomearquivo` .**
+
 - **Fazer commit: `git commit` .**
 
 - **Fazendo commit com mensagem: `git commit -m “Mensagem descritiva do commit”` .**
