@@ -63,11 +63,15 @@
 
 - **Fazendo commit com mensagem: `git commit -m “Mensagem descritiva do commit”` .**
 
+- **Alterar mensagem do último commit realizado no repositório local: `git commit --amend -m "Nova Mensagem do commit"` .**
+
 - **Adicionar no stage e fazer commit: `git add . && git commit -m “Mensagem descritiva do commit”` .**
 
 - **Histórico de commits: `git log` .**
 
 - **Histórico de commits mais compacto: `git log --oneline` .**
+
+- **Histórico de commits mais detalhado: `git reflog` .**
 
 - **Usando checkout para visualizar e voltar em commits anteriores: `git checkout idcommit` .**
 
@@ -80,6 +84,8 @@
 - **Voltar a um commit anterior resetando todas as alterações futuras: `git reset idcommit --hard` .**
 
 - **Listar os branchs que estão no repositório: `git branch` .**
+
+- **Listar último commit de cada branch: `git branch -v` .**
 
 - **Criar um novo branch: `git branch nomebranch` .**
 
